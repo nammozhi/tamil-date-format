@@ -1,6 +1,8 @@
 # Tamil Date Format
 
-> A simple javascript snippets for display date &amp; time in Tamil language. Enjoy!
+###### A simple javascript snippets for display date & time in Tamil language. Enjoy! :heart:
+
+<img src="https://img.shields.io/badge/Contributions-Welcome-blueviolet"> <img src="https://img.shields.io/badge/Version-1.0-blue"> <img src="https://img.shields.io/badge/JS size-2.35 Kb-brightgreen">
 
 ## Date and time patterns
 
@@ -32,8 +34,8 @@
 ```
 <script src="tamilDateFormat.js"></script>
 <script>
-	let date = new Date();
-	document.write(date.tamilFormat());
+	let d = new Date();
+	document.write(d.tamilFormat());
 </script>
 ```
 
@@ -46,8 +48,12 @@
 ## Formatting using patterns
 
 ```
-- date.tamilFormat() => அக்டோபர் மாதம் 2021ம் வருடம் சனிக்கிழமை 9ம் திகதி மாலை 6 மணி 48 நிமிடம்
-- date.tamilFormat('MMMM') => அக்டோபர்
-- date.tamilFormat('Dம் திகதி') => 9ம் திகதி
-- date.tamilFormat('P h மணி m நிமிடம்') => மாலை 6 மணி 48 நிமிடம்
+- d.tamilFormat() => அக்டோபர் மாதம் 2021ம் வருடம் சனிக்கிழமை 9ம் திகதி மாலை 6 மணி 48 நிமிடம்
+- d.tamilFormat('MMMM') => அக்டோபர்
+- d.tamilFormat('Dம் திகதி') => 9ம் திகதி
+- d.tamilFormat('P h மணி m நிமிடம்') => மாலை 6 மணி 48 நிமிடம்
 ```
+
+## Do you want to improve tamil-date-format ?
+
+You're welcome to make your contributions and send them as a pull request. :green_heart:
